@@ -1,0 +1,1 @@
+{"version":3,"file":"sql-guard.d.ts","sourceRoot":"","sources":["../../src/staging/sql-guard.ts"],"names":[],"mappings":"AAAA;;;;;;;GAOG;AAQH;;;;GAIG;AACH,wBAAgB,iBAAiB,CAAC,GAAG,EAAE,MAAM,GAAG,MAAM,CA2BrD;AAED,0EAA0E;AAC1E,wBAAgB,iBAAiB,CAAC,GAAG,EAAE,MAAM,EAAE,KAAK,EAAE,MAAM,GAAG,MAAM,CAGpE;AAED,0EAA0E;AAC1E,wBAAgB,kBAAkB,CAAC,GAAG,EAAE,MAAM,GAAG,MAAM,CAEtD"}

@@ -1,0 +1,6 @@
+import type { SourceModule } from "../types";
+import { fdaOrangeBook } from "./fda-orange-book";
+/** All monitorable sources, keyed by id. MonitorDO resolves a subscription's source_id here. */
+export declare const SOURCES: Record<string, SourceModule>;
+export { fdaOrangeBook };
+//# sourceMappingURL=index.d.ts.map
