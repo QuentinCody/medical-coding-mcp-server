@@ -1,1 +1,0 @@
-{"version":3,"file":"key-detect.d.ts","sourceRoot":"","sources":["../../src/monitor/key-detect.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;GAWG;AAEH,qFAAqF;AACrF,MAAM,WAAW,aAAa;IAC7B,MAAM,EAAE,MAAM,CAAC;IACf,aAAa,EAAE,MAAM,CAAC;IACtB,SAAS,EAAE,MAAM,CAAC;IAClB,QAAQ,EAAE,MAAM,CAAC;CACjB;AAsBD,iFAAiF;AACjF,wBAAgB,aAAa,CAAC,KAAK,EAAE,aAAa,EAAE,GAAG,MAAM,EAAE,GAAG,IAAI,CAOrE"}
