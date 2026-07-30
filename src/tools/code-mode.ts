@@ -2,7 +2,7 @@
  * Medical-coding Code Mode — registers coding_search + coding_execute over NLM HCPCS.
  */
 
-import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import type { McpServer } from "@bio-mcp/shared/mcp";
 import { createSearchTool } from "@bio-mcp/shared/codemode/search-tool";
 import { createExecuteTool } from "@bio-mcp/shared/codemode/execute-tool";
 import { medicalCodingCatalog } from "../spec/catalog";
