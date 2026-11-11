@@ -70,7 +70,7 @@ if (index) {
 if (doFile) {
   assertContains('src/do.ts', doFile, 'RestStagingDO', 'DO extends RestStagingDO');
   assertContains('src/do.ts', doFile, 'MedicalCodingDataDO', 'DO class named MedicalCodingDataDO');
-  // NLM Clinical Tables result sets are small; the DO defines no schema hints.
+  // Contextual row hints retain native date storage types.
 }
 
 if (catalog) {
@@ -80,8 +80,8 @@ if (catalog) {
 }
 
 if (http) {
-  assertContains('src/lib/http.ts', http, 'restFetch', 'http uses restFetch from shared');
-  assertContains('src/lib/http.ts', http, 'clinicaltables.nlm.nih.gov/api', 'http has NLM Clinical Tables base URL');
+  assertContains('src/lib/http.ts', http, 'redirect: "manual"', 'http restricts redirects');
+  assertContains('src/lib/http.ts', http, 'clinicaltables.nlm.nih.gov', 'http has NLM Clinical Tables origin');
   assertContains('src/lib/http.ts', http, 'codingFetch', 'http exports codingFetch');
 }
 

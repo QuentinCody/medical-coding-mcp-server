@@ -10,8 +10,8 @@ import { MedicalCodingDataDO } from "./do";
 export { MedicalCodingDataDO };
 
 interface MedicalCodingEnv {
-    MEDICAL_CODING_DATA_DO: DurableObjectNamespace;
-    CODE_MODE_LOADER: WorkerLoader;
+    MEDICAL_CODING_DATA_DO: Env["MEDICAL_CODING_DATA_DO"];
+    CODE_MODE_LOADER: Env["CODE_MODE_LOADER"];
 }
 
 export class MyMCP extends StatelessMcpWorker {
